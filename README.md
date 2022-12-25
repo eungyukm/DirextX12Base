@@ -10,6 +10,20 @@
  
 # GPU의 필요성        
   모든 물체들은 삼각형으로 이루어져 있습니다.       
-  8개 정점에 대한 좌표 연산을 해야 합니다.       
+  정점에 대한 좌표 연산을 해야 합니다.       
   위치와 색상에 대한 연산을 해야 합니다.        
   CPU가 모든 계산을 하기 보다는, GPU에 할당하여 연산하도록 합니다.       
+
+# 렌더링 파이프라인
+  Input-Assembler Stage : 정점의 정보를 전달하는 역할
+  Vertex Shader : 
+  
+  Hull Shader Stage
+  Tesselator State
+  Domain Shader Stage
+  
+  Geometry Shader State : 새로운 정점들을 생성할 때 활용
+  Stream Output Stage
+  Rasterizer Stage : 
+  Pixel Shader Stage : 최종적으로 색상을 입히는 단계
+  Output Merger Stage
