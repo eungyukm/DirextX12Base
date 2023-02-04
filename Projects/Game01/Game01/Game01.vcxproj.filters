@@ -32,7 +32,9 @@
     <ClInclude Include="targetver.h">
       <Filter>소스 파일\Utils</Filter>
     </ClInclude>
-    <ClInclude Include="Game.h" />
+    <ClInclude Include="Game.h">
+      <Filter>소스 파일\Game</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -42,7 +44,7 @@
       <Filter>소스 파일\Utils</Filter>
     </ClCompile>
     <ClCompile Include="Game.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Game</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
