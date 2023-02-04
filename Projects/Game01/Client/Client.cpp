@@ -3,7 +3,7 @@
 
 #include "pch.h"
 #include "framework.h"
-#include "Game01.h"
+#include "Client.h"
 #include "Game.h"
 
 #define MAX_LOADSTRING 100
@@ -99,7 +99,7 @@ ATOM MyRegisterClass(HINSTANCE hInstance)
     wcex.hbrBackground  = (HBRUSH)(COLOR_WINDOW+1);
     // menuName 제거
     wcex.lpszMenuName = nullptr;
-    wcex.lpszClassName = nullptr;
+    wcex.lpszClassName = szWindowClass;
     wcex.hIconSm        = LoadIcon(wcex.hInstance, MAKEINTRESOURCE(IDI_SMALL));
 
     return RegisterClassExW(&wcex);
