@@ -44,7 +44,10 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 
     MSG msg;
 
-    Game* game = new Game();
+    //Game* game = new Game();
+    // 스마트 포인트로 변경
+    // 성능보다는 안정성 중시
+    unique_ptr<Game> game = make_unique<Game>();
     game->Init();
 
     // 기본 메시지 루프입니다:
