@@ -28,6 +28,8 @@
   Pixel Shader Stage : 최종적으로 색상을 입히는 단계         
   Output Merger Stage             
 
+# Component
+
 # DirectX 목차       
 [1. DirextX](https://github.com/eungyukm/DirextX12Base/wiki/01.-Client-%EC%BD%94%EB%93%9C)         
 [2. 프로젝트 설정](https://github.com/eungyukm/DirextX12Base/wiki/01.-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%84%A4%EC%A0%95)       
