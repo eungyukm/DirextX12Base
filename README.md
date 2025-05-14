@@ -55,10 +55,3 @@
   Output Merger (OM) Stage             
   - 역할 : Pixel Shader 결과를 프레임 버퍼에 최종적으로 출력합니다.
   - 주요 작업 : 블렌딩(투명도, 색상 조합), 깊이 테스트, 스텐실 테스트 수행.
-
-# Component
-
-# DirectX 목차       
-[1. DirextX](https://github.com/eungyukm/DirextX12Base/wiki/01.-Client-%EC%BD%94%EB%93%9C)         
-[2. 프로젝트 설정](https://github.com/eungyukm/DirextX12Base/wiki/01.-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%84%A4%EC%A0%95)       
- 
